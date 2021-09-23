@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Store | Ecommerce Website</title>
+    <!-- -----------css style sheet-------------------- -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- ---------------mobile friendly--------------------- -->
+    <link rel="stylesheet" href="./mobile.css" />
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google-fonts -->
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- font-awesome -->
+  </head>
+  <body>
+    <!-- --------------------header-section------------------------------- -->
+    
+    <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="./home.html"><img src="./images/logo.png" alt="logo" class="logo-image" /></a>
+          </div>
+          <nav>
+            <ul id="menuItems">
+              <li><a href="./home.html">Home</a></li>
+              <li><a href="./products.html">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="./account.html">Account</a></li>
+            </ul>
+          </nav>
+          <!-- cart-icon -->
+          <a href="./cart.html"><img src="./images/cart.png" alt="cart-image" id="cart-image" /></a>
+          <!-- menu icon for small screens(<800px) -->
+            <img
+            src="./images/menu.png"
+            class="menu-icon"
+            
+            />
+          </div>  
+        </div>
+        <!-- --------------------header-section close------------------------------- -->
+
+        <!-- -------------------------account-page----------------------- -->
+        <div class="account-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="./images/image1.png">
+                    </div>
+                    <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span id="loginBtn"> Login</span>
+                            <span id="signupBtn">Register</span>
+                            <hr id="indicator">
+                            
+                        </div>
+                        <form id="loginForm">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="#">Forgot password</a>
+                        </form>
+                        <form id="signupForm">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn">Register</button>
+
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- ----------------footer---------------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phones</p>
+            <div class="app-logo">
+              <img src="./images/play-store.png" />
+              <img src="./images/app-store.png" />
+            </div>
+          </div>
+
+          <div class="footer-col-2">
+            <img src="./images/logo-white.png" alt="" />
+            <p>
+              Our purpose is to Sustainably Make the Pleasure and benefits of
+              Sports Accessible to the many
+            </p>
+          </div>
+
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2020 - Ahtesham Akram | Ak</p>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

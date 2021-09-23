@@ -1,0 +1,61 @@
+/* -------------------------media query for menue icon------------------------ */
+@media only screen and (max-width: 800px) {
+  nav ul {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #333;
+    width: 30%;
+    overflow: hidden;
+    transition: max-Height 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+}
+/*-------------------------- media query for mob screens----------------------------------- */
+/* media query for screen less than 600px */
+@media only screen and (max-width: 600px) {
+  .row {
+    text-align: center;
+  }
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5 {
+    flex-basis: 100%;
+  }
+  .single-prod .row {
+    text-align: left;
+  }
+  .single-prod .col-2 {
+    padding: 20px 0;
+  }
+  .single-prod #prod-main-heading {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .cart-info p {
+    display: none;
+  }
+  td input {
+    margin-bottom: 5px;
+  }
+  th {
+    text-align: center;
+  }
+}
